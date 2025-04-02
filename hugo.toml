@@ -1,0 +1,4 @@
+baseURL = 'https://adanshul.github.io/anshul-dhull.github.io/'
+languageCode = 'en-us'
+title = 'Anshul Portfolio Website'
+theme = "hugo-noir"
