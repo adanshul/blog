@@ -2,6 +2,107 @@ baseURL = 'https://adanshul.github.io/anshul-dhull.github.io/'
 languageCode = 'en-us'
 title = 'Anshul Portfolio Website'
 theme = "hugo-noir"
-
 relativeURLs = true  # Ensures links are relative to baseURL
 publishDir = "public"  # Confirms output goes to public/
+
+[params]
+name = "Anshul Dhull"
+location = "Washington, DC, USA"
+description = "Security Engineer"
+profile_image = "/images/profile.jpg"
+discord = "anshul_dhull"
+github = "https://github.com/adanshul"
+github_username = "adanshul"
+email = "anshuldhull1997@gmail.com"
+linkedin = "https://www.linkedin.com/in/anshul-dhull/"
+linkedin_username = "anshul-dhull"
+leetcode = "https://leetcode.com/u/anshulfireball/"
+leetcode_username = "anshulfireball"
+
+# Education Section (used on About page)
+[[params.honors]]
+institution = "University of Maryland, College Park"
+title = "MEng Cybersecurity"
+date = "May 2024"
+
+[[params.honors]]
+institution = "Dehradun Institute of Technology"
+title = "BTech Computer Science and Engineering"
+date = "May 2020"
+
+# Certifications Section (used on About page)
+[[params.certifications]]
+title = "AWS Certified Security – Specialty"
+date = "Feb 2025"
+url = "https://www.credly.com/earner/earned/badge/a07f2238-a296-407f-a6ae-e76494fdf0f2e"
+
+[[params.certifications]]
+title = "CompTIA Security+ ce Certification"
+date = "June 2020" 
+url = "https://www.credly.com/earner/earned/badge/208ef208-5b8f-477d-b950-1820cdd85ce6"
+
+[[params.certifications]]
+title = "AWS Certified Solutions Architect Associate"
+date = "January 2023"
+url = "#"
+
+[[params.certifications]]
+title = "Azure Fundamentals (AZ-900)"
+date = "March 2022"
+url = "#"
+
+[[params.voluntary]]
+role = "CTF Creator"
+organization = "RSA Cloud Village"
+description = "Developed and executed a project to demonstrate security vulnerabilities in automated CI/CD pipelines through malicious pull requests on the AWS cloud, highlighting risks in code reviews and executing untrusted code."
+
+# Experience Section (used on Experience page)
+[[params.experience]]
+company = "Solar Energy Industries Association"
+role = "Cybersecurity Engineer Intern"
+period = "June 2023 - August 2023"
+logo = "/images/company/seia.jpg"
+description = "Enhanced security of critical solar energy systems through threat modeling, security assessments, and application security reviews."
+responsibilities = [
+    "Developed threat modeling frameworks for critical solar energy systems, reducing attack vectors by 30%",
+    "Conducted risk assessments of network architectures and implemented secure development practices",
+    "Led security reviews to detect and mitigate OWASP Top 10 and SANS CWE Top 25 vulnerabilities",
+    "Integrated security controls into CI/CD pipelines for early detection of issues",
+    "Created documentation and training materials for security awareness"
+]
+
+[[params.experience]]
+company = "IBM"
+role = "Security Analyst"
+period = "September 2020 - August 2022"
+logo = "/images/company/ibm.png"
+description = "Specialized in incident response, threat hunting, and security workflow automation for enterprise systems."
+responsibilities = [
+    "Led security incident response for 100+ events using SIEM tools like QRadar and Splunk",
+    "Developed detection rules mapped to MITRE ATT&CK, improving anomaly detection by 30%",
+    "Automated incident response workflows, reducing manual triage time by 40%",
+    "Conducted proactive threat hunting in cloud and on-prem environments",
+    "Performed forensic investigations on Windows and Linux systems"
+]
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Experience"
+    url = "/experience/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Blogs"
+    url = "/blogs/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact Me"
+    url = "/contact/"
+    weight = 5

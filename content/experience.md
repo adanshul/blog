@@ -1,13 +1,10 @@
 ---
-company: "IBM"
-role: "Security Analyst"
-period: "Sep 2020 - Aug 2022"
-logo: "/images/company/logo.png"
-description: "Brief description of your role and responsibilities."
-responsibilities:
-  - "Responsibility 1 with specific achievements"
-  - "Responsibility 2 with specific achievements"
-  - "Responsibility 3 with specific achievements"
+title: "Experience"
+date: 2025-04-02T10:30:00+05:30
+draft: false
+menu: "main"
+description: "Explore Anshul Dhull's professional experience in cybersecurity, including roles at SEIA and IBM."
+layout: "experience"
 ---
-## My Experience at IBM
-I worked as a Security Analyst at IBM from September 2020 to August 2022. During this time, I focused on [describe your role in more detail].
+
+Throughout my career, I have focused on strengthening organizational security postures through a combination of technical expertise, proactive threat management, and strategic implementation of security controls. My work spans incident response, threat detection, secure development, and security automation.
